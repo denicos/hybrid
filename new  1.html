@@ -1,0 +1,58 @@
+<!Doctype html>
+<html lang="en-US>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({ beforeShowDay: $.datepicker.noWeekends })
+
+  } );
+  
+  </script>
+
+</style>
+</head>
+<body>
+<p> Name  : <input type="text" name="name" id="NAME" /></p>
+</br>
+
+ <p> Email :   <input type="text" name="email" id="EMAIL" /></p>
+	</br>
+	
+ <p>  PhoneNumber :  <input type="text" name="phone" id="PHONE" /></p>
+	</br>
+ <p>Date:    <input type="text" name="time" id="datepicker" class="ui-datepicker-week-end" /></p>
+	</br>
+	
+  <p> Time :  
+<select name="time">
+    <option value="09:00">09.00 AM</option>
+    <option value="09:30">09.30 AM</option>
+    <option value="10:00">10.00 AM</option>
+    <option value="10:30">10.30 AM</option>
+    <option value="11:00">11.00 AM</option>
+    <option value="11:30">11.30 AM</option>
+    <option value="12:00">12.00 PM</option>
+    <option value="12:30">12.30 PM</option>
+    <option value="13:00">01.00 PM</option>
+    <option value="13:30">01.30 PM</option>
+    <option value="14:00">02.00 PM</option>
+    <option value="14:30">02.30 PM</option>
+    <option value="15:00">03.00 PM</option>
+    <option value="15:30">03.30 PM</option>
+    <option value="16:00">04.00 PM</option>
+    <option value="16:30">04.30 PM</option>
+    <option value="17:00">05.00 PM</option>
+    <option value="17:30">05.30 PM</option>
+</select>
+
+</p>
+	</br>
+</body>
+</html>
